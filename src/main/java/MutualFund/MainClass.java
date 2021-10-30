@@ -5,6 +5,8 @@ import java.util.*;
 public class MainClass {
 
     public static void main(String[]args){
+
+
         //mutual fund object
         mutual_fund c1 = new mutual_fund();
         c1.setClient_id(1);
@@ -26,6 +28,8 @@ public class MainClass {
         cdetails.add(c3);
 
 
+
+
         //insurance object
         insurance i1 = new insurance();
         i1.setClient_id(1);
@@ -45,6 +49,8 @@ public class MainClass {
         idetails.add(i1);
         idetails.add(i2);
         idetails.add(i3);
+
+
 
 
         // creating fixed deposit object
@@ -76,7 +82,7 @@ public class MainClass {
         map.put(3,fddetails);
 
 
-
+        // printing map
         for(int i=1;i <=3 ; i++){
             System.out.println(i+":"+map.get(i));
         }

@@ -35,8 +35,8 @@ public class insurance {
 
     public String toString() {
         final String s = "Clientid:" + this.getClient_id() +
-                " ParentId: " + this.getPolicy_number() +
-                " Balance units: " + this.getPolicy_id();
+                " Policy Number: " + this.getPolicy_number() +
+                " Policy ID: " + this.getPolicy_id();
         return s;
     }
 }

@@ -33,7 +33,7 @@ public class mutual_fund {
         System.out.println(getBalance_unit());
     }
     public String toString() {
-        final String s = "Clientid:" + this.getClient_id() +
+         final String s = "Clientid:" + this.getClient_id() +
                 " ParentId: " + this.getParent_id() +
                 " Balance units: " + this.getBalance_unit();
         return s;
